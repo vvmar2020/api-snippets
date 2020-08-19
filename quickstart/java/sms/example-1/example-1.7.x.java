@@ -14,8 +14,8 @@ public class SmsSender {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
         Message message = Message
-                .creator(new PhoneNumber("+14159352345"), // to
-                        new PhoneNumber("+14158141829"), // from
+                .creator(new PhoneNumber("+16477721769"), // to
+                        new PhoneNumber("+17547993076"), // from
                         "Where's Wallace?")
                 .create();
 
